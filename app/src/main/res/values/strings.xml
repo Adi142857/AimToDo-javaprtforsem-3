@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Aim To Do</string>
+    <string name="add_a_to_do">Add a to-do…</string>
+    <string name="add">Add</string>
+    <string name="show_to_dos">Show To-dos</string>
+    <string name="let_us_get_started">Let us get Started!</string>
+    <string name="exit">Exit</string>
+    <string name="delete_a_to_do">Delete a to-do</string>
+    <string name="update_to_do">Update to-do</string>
+    <string name="about">About</string>
+    <string name="abouttext">
+        Welcome  to  Aim To Do ! This App is useful  for the people who do every work with a particular schedule systematically.
+\n 1.Daily Planner
+\n 2.Lists
+\n 3.Goal  Planner\n
+You can Delete or Update already created to-do lists and so can manage the data easily.
+\nPlease look into the following links to connect with us!\n
+    </string>
+
+</resources>

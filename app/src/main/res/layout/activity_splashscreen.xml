@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="35dp"
+        android:background="@color/colorPrimary"
+        android:drawableStart="@drawable/ic_left_arrow"
+        android:drawableLeft="@drawable/ic_left_arrow"
+        android:drawableEnd="@drawable/ic_right_arrow"
+        android:drawableRight="@drawable/ic_right_arrow"
+        android:text="@string/let_us_get_started" />
+
+
+
+</RelativeLayout>

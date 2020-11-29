@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home.AboutActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Welcome to the To-Do list created by Prathamesh,Aditya,Mayank and Suchit as a part of our java mini-project.If you want to get the source code of this:you can find this in the following links."
+                android:textColor="#2196F3"
+                android:textStyle="italic" />
+
+
+            <Button
+                android:id="@+id/prathamesh"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Github--Prathamesh" />
+
+            <Button
+                android:layout_width="180dp"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/mayank"
+                android:layout_marginTop="15dp"
+                android:text="Github--Mayank"
+                android:layout_height="50dp" />
+
+            <Button
+                android:id="@+id/aditya"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Github--Aditya" />
+
+            <Button
+                android:id="@+id/suchit"
+                android:layout_width="180dp"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:layout_marginTop="15dp"
+                android:text="Github--Suchit"
+                android:layout_height="50dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
