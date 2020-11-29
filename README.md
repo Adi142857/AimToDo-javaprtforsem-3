@@ -1,5 +1,5 @@
 # AimToDo-javaprtforsem-3
-App
+Todo-list-App
 Steps to be Followed:
 
 Clone or Download the zip file clone or download the zip file and unzip and place into your desired folder.
