@@ -13,6 +13,3 @@ Import this project into Android Studio You are just few steps away from creatin
 
 You are ready to run the app Now you are ready to run the application. But if you want you can make any customizations on the type of assets being used.
 
-https://user-images.githubusercontent.com/65461420/100551921-d3404b00-32a9-11eb-9736-ff08da543bf1.jpeg
-https://user-images.githubusercontent.com/65461420/100551927-db988600-32a9-11eb-8d0c-0020f459c9d9.jpeg
-
