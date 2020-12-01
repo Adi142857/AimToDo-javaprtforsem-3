@@ -26,8 +26,5 @@
         >
 
     </item>
-    <item android:title="Suggestions"
-        android:id="@+id/suggestionsid"
-        />
 
 </menu>

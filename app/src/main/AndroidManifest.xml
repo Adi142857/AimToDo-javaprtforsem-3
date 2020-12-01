@@ -47,6 +47,10 @@
             android:name=".Home.SplashscreenActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".Home.AboutActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

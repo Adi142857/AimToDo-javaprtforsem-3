@@ -24,9 +24,10 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="5dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Welcome to the To-Do list created by Prathamesh,Aditya,Mayank and Suchit as a part of our java mini-project.If you want to get the source code of this:you can find this in the following links."
-                android:textColor="#2196F3"
-                android:textStyle="italic" />
+                android:textSize="20sp"
+                android:textColor="#000000" />
 
 
             <Button

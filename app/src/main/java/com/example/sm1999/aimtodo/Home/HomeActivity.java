@@ -48,8 +48,6 @@ public class HomeActivity extends AppCompatActivity {
                 .getBoolean("isFirstRun", true);
 
         if (isFirstRun) {
-            //show start activity
-
             startActivity(new Intent(HomeActivity.this, SplashscreenActivity.class));
         }
 
@@ -341,13 +339,10 @@ public class HomeActivity extends AppCompatActivity {
                   buffer.append("PRIVATE: "+data.getString(6)+"\n");
                   buffer.append("STUDIES: "+data.getString(7)+"\n");
                   buffer.append("MUSIC: "+data.getString(8)+"\n");
-
-
               }
               display("All Stored to-dos",buffer.toString());
           default:
               return super.onOptionsItemSelected(item);
-
 
       }
         return false;
